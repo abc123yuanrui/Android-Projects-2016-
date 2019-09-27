@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rel_total"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="126px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日本"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39px"
+            android:textColor="#4D4D4D"
+            android:id="@+id/korea"
+            android:textSize="39px"/>
+
+
+        <ImageView
+            android:background="#ffffff"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="78px"
+            android:scaleType="fitXY"
+            android:src="@drawable/choise"
+            android:id="@+id/choose_k"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
