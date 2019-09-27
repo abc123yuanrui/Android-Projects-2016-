@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="off">#009966</color>
+    <color name="on">#0000ff</color>
+    <color name="pressed">#ff0000</color>
+    <color name="off1">#ffffff</color>
+    <color name="on1">#0000ff</color>
+    <color name="pressed1">#ff0000</color>
+</resources>

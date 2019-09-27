@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Universal Lock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="checked">checked</string>
+    <string name="not_checked">not checked</string>
+    <string name="switch_on">Yes</string>
+    <string name="switch_off">No</string>
+</resources>

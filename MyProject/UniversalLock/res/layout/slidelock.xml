@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"   android:id="@+id/slide_lock_main_ll"   android:background="@drawable/background3">
+  
+  <include layout="@layout/header" android:layout_width="fill_parent" android:layout_height="@dimen/header_size" android:id="@+id/slide_lock_header"/>
+  
+  <LinearLayout android:layout_marginTop="10dp"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="0.1" >
+    <ListView android:id="@+id/sdl_lv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:cacheColorHint="#ff009977" android:layout_marginLeft="10.0dip"  android:layout_marginRight="10.0dip" />
+  </LinearLayout>  
+</LinearLayout>

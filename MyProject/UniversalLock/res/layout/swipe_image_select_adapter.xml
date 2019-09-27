@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"  >
+    
+   <FrameLayout android:id="@+id/select_image_frm" android:layout_width="fill_parent" android:layout_height="60.0dip" android:background="@drawable/round_corner">
+            <RelativeLayout android:id="@+id/select_image_rl" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" >
+    
+    				<TextView android:id="@+id/image_title"    				    
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignParentLeft="true"
+        				android:layout_centerInParent="true"/>
+    
+    				<ImageView android:id="@+id/image_check"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignParentRight="true"
+        				android:layout_centerInParent="true"/>
+    		</RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

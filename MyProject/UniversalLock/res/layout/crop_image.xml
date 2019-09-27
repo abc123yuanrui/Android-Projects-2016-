@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffffff">
+    
+<RelativeLayout android:id="@+id/crop_image_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:gravity="center">
+    <LinearLayout android:id="@+id/crop_image_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:background="#900000ff" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" >
+<LinearLayout android:id="@+id/crop_image_top_child1" android:layout_width="wrap_content" android:layout_height="170dp" android:orientation="vertical" android:background="#990000ff" android:layout_gravity="center_vertical" android:gravity="center">    
+    	<LinearLayout  android:id="@+id/crop_image_ll_1" android:layout_width="fill_parent" android:layout_height="70dp"  android:background="@drawable/round_corner_white"  android:onClick="true" android:layout_gravity="center_vertical" android:gravity="center" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+        	<TextView android:id="@+id/crop_image_tt1" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Vertical" android:textColor="#00ff00" android:textSize="25sp" android:gravity="center"/>
+        	<TextView android:id="@+id/crop_image_tt2" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Low Resolution" android:textColor="#0000ff" android:textSize="25sp" android:gravity="center"/>
+    	</LinearLayout>
+    	<View android:layout_width="fill_parent" android:layout_height="10dp" android:background="@android:color/transparent"/>
+    	<LinearLayout android:id="@+id/crop_image_ll_2" android:layout_width="fill_parent" android:layout_height="70dp"  android:background="@drawable/round_corner_white" android:layout_gravity="center_vertical" android:gravity="center" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+	        <TextView android:id="@+id/crop_image_tt3" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Vertical" android:textColor="#00ff00" android:textSize="25sp" android:gravity="center" />
+        	<TextView android:id="@+id/crop_image_tt4" android:layout_width="200dp" android:layout_height="fill_parent" android:text="High Resolution" android:textColor="#0000ff" android:textSize="25sp" android:gravity="center"/>
+    	</LinearLayout>
+  </LinearLayout>
+	<View android:layout_width="fill_parent" android:layout_height="25dp" android:background="@android:color/transparent"/>
+	<LinearLayout android:id="@+id/crop_image_top_child2" android:layout_width="wrap_content" android:layout_height="170dp" android:orientation="vertical" android:background="#990000ff" android:layout_gravity="center_vertical" android:gravity="center">
+    <LinearLayout android:id="@+id/crop_image_ll_3" android:layout_width="fill_parent" android:layout_height="70dp"  android:background="@drawable/round_corner_white" android:layout_gravity="center_vertical" android:gravity="center" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+        <TextView android:id="@+id/crop_image_tt5" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Horizontal" android:textColor="#00ff00" android:textSize="25sp" android:gravity="center"  />
+        <TextView android:id="@+id/crop_image_tt6" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Low Resolution" android:textColor="#0000ff" android:textSize="25sp" android:gravity="center"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="10dp" android:background="@android:color/transparent"/>
+     <LinearLayout android:id="@+id/crop_image_ll_4" android:layout_width="fill_parent" android:layout_height="70dp" android:gravity="center" android:background="@drawable/round_corner_white" android:layout_gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" >
+        <TextView android:id="@+id/crop_image_tt7" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Horizontal" android:textColor="#00ff00" android:textSize="25sp" android:gravity="center"/>
+		<TextView android:id="@+id/crop_image_tt8" android:layout_width="200dp" android:layout_height="fill_parent" android:text="High Resolution" android:textColor="#0000ff" android:textSize="25sp" android:gravity="center"/>
+    </LinearLayout>
+    </LinearLayout>
+    	<View android:layout_width="fill_parent" android:layout_height="25dp" android:background="@android:color/transparent"/>
+<LinearLayout android:id="@+id/crop_image_top_child3" android:layout_width="wrap_content" android:layout_height="170dp" android:orientation="vertical" android:background="#990000ff" android:layout_gravity="center_vertical" android:gravity="center">
+     <LinearLayout android:id="@+id/crop_image_ll_5" android:layout_width="fill_parent" android:layout_height="70dp"  android:background="@drawable/round_corner_white" android:layout_gravity="center_vertical" android:gravity="center" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" >
+        <TextView android:id="@+id/crop_image_tt9" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Square" android:textColor="#00ff00" android:textSize="25sp" android:gravity="center"/>
+        <TextView android:id="@+id/crop_image_tt10" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Low Resolution" android:textColor="#0000ff" android:textSize="25sp" android:gravity="center"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="10dp" android:background="@android:color/transparent"/>
+     <LinearLayout android:id="@+id/crop_image_ll_6" android:layout_width="fill_parent" android:layout_height="70dp" android:gravity="center" android:background="@drawable/round_corner_white" android:layout_gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+        <TextView android:id="@+id/crop_image_tt11" android:layout_width="200dp" android:layout_height="fill_parent" android:text="Square" android:textColor="#00ff00" android:textSize="25sp" android:gravity="center" />
+        <TextView android:id="@+id/crop_image_tt12" android:layout_width="200dp" android:layout_height="fill_parent" android:text="High Resolution" android:textColor="#0000ff" android:textSize="25sp" android:gravity="center"/>
+    </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>
+    
+</LinearLayout>

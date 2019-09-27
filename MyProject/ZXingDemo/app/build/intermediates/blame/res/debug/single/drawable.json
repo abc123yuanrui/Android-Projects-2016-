@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_onpress_style.xml",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable\\border_onpress_style.xml"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_border_style.xml",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable\\selector_border_style.xml"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_style.xml",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable\\border_style.xml"
+    }
+]

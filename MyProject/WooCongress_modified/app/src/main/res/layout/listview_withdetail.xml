@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="500dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:textSize="20dp"
+    android:id="@+id/theme"
+    android:text="122-123会议777"
+    android:textColor="@color/viewfinder_laser"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theme"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/details"
+        android:layout_marginBottom="40dp"
+        android:textSize="15dp"
+        android:maxLines="11"
+        android:text="123212321314123213132132oioauouqoewqeq"/>
+
+</RelativeLayout>

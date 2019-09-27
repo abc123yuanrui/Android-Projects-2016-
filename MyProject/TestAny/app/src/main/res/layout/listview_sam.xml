@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rel_total"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="150px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40px"
+            android:id="@+id/samtext"
+            android:layout_centerVertical="true"
+            android:maxEms="9"
+            android:singleLine="true"
+            android:text="2016-2017年度总结大会圆满失败"
+            android:layout_marginLeft="1dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

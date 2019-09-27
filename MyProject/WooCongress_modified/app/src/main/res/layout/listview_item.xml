@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rel_total"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="110dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="研究2017年度党建工作会议"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#4D4D4D"
+            android:id="@+id/meeting"
+            android:textSize="15dp"/>
+
+
+
+        <ImageView
+            android:background="#ffffff"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/meeting"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/clock"
+            android:id="@+id/clock"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="#ff6600"
+            android:id="@+id/starttime"
+            android:layout_below="@+id/meeting"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="9dp"
+            android:text="时间：2017-02-05  9:00-11:00"/>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/clock"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/location"
+            android:scaleType="fitXY"
+            android:id="@+id/location"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="#ff6600"
+            android:id="@+id/address"
+            android:layout_below="@+id/clock"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="45dp"
+            android:text="地点  102室"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/markscode"
+            android:id="@+id/codebutton"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="67dp"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sign"
+            android:id="@+id/signbutton"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="297dp"
+            android:layout_marginTop="67dp"
+            />
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:scaleType="fitXY"
+            android:id="@+id/signedbutton"
+            android:layout_marginLeft="280dp"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/signed"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

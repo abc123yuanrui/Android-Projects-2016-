@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    tools:context="com.example.mylockapp.swipe_image_lock_set_confirm" 
+    android:background="@drawable/background1">
+    
+            
+<LinearLayout android:id="@+id/slide_image_lock_set_sub_main_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center"  >
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center_vertical">    
+   <TextView android:id="@+id/swipe_image_lock_confirm_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="First Unlock_this" android:textColor="#ffffff" android:textSize="30dp" android:gravity="center" android:layout_gravity="center_horizontal"/>
+   </LinearLayout> 
+   <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+	<include layout="@layout/galary_view" android:id="@+id/gallery_view_cnf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>    
+</FrameLayout>

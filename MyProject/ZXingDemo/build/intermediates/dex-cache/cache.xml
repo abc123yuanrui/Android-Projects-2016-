@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Android\MyProject\ZXingDemo\app\libs\core2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2831e26ad796fc7af925d3def8e37192c89e923d">
+        <dex dex="E:\Android\MyProject\ZXingDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\core2_42258cab72b8258aea7c852c3590058cae932ef3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\MyProject\ZXingDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba3b09784ed5faa0d3d4a6c5d4a2ad3ece18af44">
+        <dex dex="E:\Android\MyProject\ZXingDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_be9ddf5165410039d851afb1c7a29d391fb88b14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\MyProject\ZXingDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2eb8439efa94683ab5a3927250c2d5048eee57af">
+        <dex dex="E:\Android\MyProject\ZXingDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_831404bc1ef03a1451e38e09fc16414ae88ea17b\classes.dex" />
+    </item>
+
+</items>

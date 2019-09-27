@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:paddingTop="10.0dip" android:paddingBottom="10dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/scl_frm" android:layout_width="fill_parent" android:layout_height="49dp" >
+        
+        <RelativeLayout android:id="@+id/scl_rl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <LinearLayout android:id="@+id/scl_ll2" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                 <RelativeLayout android:id="@+id/scl_rl2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                   	
+            <TextView android:textSize="@dimen/list_text_size"  android:gravity="center_vertical" android:id="@+id/scl_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_marginLeft="10.0dip" android:textColor="@android:color/white" />
+            <TextView android:textSize="@dimen/list_text_size_desc"  android:gravity="center_vertical" android:id="@+id/scl_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:textColor="@android:color/white"/>
+            <ImageView android:id="@+id/scl_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/dir_arrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_centerVertical="true"  android:contentDescription="@null" android:scaleType="fitXY"/>
+            <Switch  android:textOn="O" android:textOff="|" android:id="@+id/scl_sw" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_alignParentRight="true" android:layout_centerVertical="true"  android:thumb="@drawable/switch_color" android:background="@drawable/round_corner" android:textSize="16dp" android:switchMinWidth="@dimen/switch_size" android:textColor="#ffffff" />
+                       
+            </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    
+</LinearLayout>

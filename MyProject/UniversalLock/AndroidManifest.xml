@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.universallock"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name="com.universallock.setvalue"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.universallock.shake_or_swipe" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.universallock.StartLockScreen" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.universallock.lockscreen" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.universallock.th" android:screenOrientation="portrait"></activity>
+        <activity android:label="@string/app_name"  android:name="com.universallock.slidelock" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.App_Lock" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.apkinfo" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.checklist" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.newactivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.test" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.StatusBarActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"   android:name="com.universallock.swipe" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.pin" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.selectlocktype" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name"  android:name="com.universallock.pin_verify" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.swipe_image_lock" android:screenOrientation="portrait"/>
+		<activity android:label="@string/app_name"  android:name="com.universallock.confirmation_dailog" android:screenOrientation="portrait"/>
+		<activity android:label="@string/app_name"  android:name="swipe.swipe_image" android:screenOrientation="portrait"/>
+		<activity android:label="@string/app_name"  android:name="com.universallock.swipe_image_lock_set" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.swipe_image_lock_set_confirm" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:label="@string/app_name"  android:name="com.universallock.swipe_image_lock_set_choose_image" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name" android:name="com.universallock.swipe_image_select" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.crop_image" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.wallpaper_chooser" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.screen_time_out" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.screen_lock_delay" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.unlock_animation" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.pin_size_set" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.sld_activity" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.settings" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.color_choose" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.Text_size_dialog" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.font_chooser" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.font_typeface_chooser" android:screenOrientation="portrait" />		
+		<activity android:label="@string/app_name"  android:name="com.universallock.Notification_activity" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.display_item_settings" android:screenOrientation="portrait" />
+		<activity android:label="@string/app_name"  android:name="com.universallock.mp3list" android:screenOrientation="portrait" />
+		
+        <service android:name="service.MyService"></service>
+        
+        <receiver android:name="receiver.lockScreenReeiver" android:enabled="true"></receiver>
+
+        <receiver android:enabled="true" android:name="receiver.lockScreenReeiver">
+            <intent-filter >
+	                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+					<action android:name="com.example.mylockapp.lock"/>
+                	<action android:name="my.action.string"/>  
+            	    <action android:name="my.action.string2"/>              
+        	        <action android:name="my.action.string3"/>
+    	        </intent-filter>
+	        </receiver>
+        
+       
+        <receiver android:name="receiver.device_policy"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_policy"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>                
+            </intent-filter>
+        </receiver>
+    </application>
+
+    
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.intent.action.BATTERY_LOW"/>
+    <uses-permission android:name="android.intent.action.BATTERY_OKAY"/>
+    <uses-permission android:name="android.intent.action.BOOT_COMPLETED"/>
+    <uses-permission android:name="android.intent.action.BATTERY_CHANGED"/>
+    <uses-permission android:name="android.intent.action.BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+<LinearLayout android:id="@+id/header_rl" android:layout_width="fill_parent" android:layout_height="@dimen/header_size" android:background="@android:color/holo_blue_bright" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center_vertical">
+
+    	<TextView android:id="@+id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffff" android:textStyle="italic" android:text="Universal Lock" android:gravity="center_vertical" android:textSize="@dimen/header_text_size" android:layout_centerVertical="true" android:layout_gravity="center_vertical" android:layout_marginLeft="16dp"/>
+    	
+    	<RelativeLayout android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp">
+			<ImageView android:layout_marginRight="20dp" android:id="@+id/icon_fb" android:layout_width="@dimen/header_image_size" android:layout_height="@dimen/header_image_size" android:scaleType="fitXY"  android:layout_centerVertical="true" android:src="@drawable/fb_icon" android:layout_toLeftOf="@+id/icon_tw" />     	
+			<ImageView android:id="@+id/icon_tw" android:layout_width="@dimen/header_image_size" android:layout_height="@dimen/header_image_size" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:src="@drawable/tw_icon"   />
+ 			<ImageView android:id="@+id/icon_gp" android:layout_width="@dimen/header_image_size" android:layout_height="@dimen/header_image_size" android:scaleType="fitXY" android:layout_toRightOf="@+id/icon_tw" android:layout_centerVertical="true" android:src="@drawable/gplus_icon" android:layout_marginLeft="16dp"  />
+		</RelativeLayout>
+		
+</LinearLayout>    
+
+</LinearLayout>

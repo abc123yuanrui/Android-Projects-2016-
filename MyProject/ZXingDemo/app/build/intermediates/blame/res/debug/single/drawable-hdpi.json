@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back_scanner.9.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\back_scanner.9.png"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lighting.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\lighting.png"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\my_code.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\my_code.png"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\my_icon.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\my_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\line_zxing.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\line_zxing.png"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\qr_scan_line.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\qr_scan_line.png"
+    },
+    {
+        "merged": "E:\\Android\\MyProject\\ZXingDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\share.png",
+        "source": "E:\\Android\\MyProject\\ZXingDemo\\app\\src\\main\\res\\drawable-hdpi\\share.png"
+    }
+]

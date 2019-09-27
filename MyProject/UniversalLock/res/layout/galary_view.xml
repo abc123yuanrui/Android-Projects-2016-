@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_gravity="center_vertical"
+     android:gravity="center">
+     
+     <LinearLayout android:id="@+id/slide_image_lock_set_sub_main_cnf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center" >
+     	 <View  android:layout_width="fill_parent" android:layout_height="100dp" android:background="@android:color/transparent"></View>
+     	<LinearLayout android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+     	        
+    <LinearLayout android:id="@+id/slide_image_lock_set_ll_1_cnf" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_frm_size" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center"  >
+    	    
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_set_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+    	<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager  android:id="@+id/myviewpager_2_set_cnf"  android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+   		<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_3_set_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"  />
+  	</LinearLayout>
+  	<View android:layout_width="fill_parent" android:layout_height="5dp" android:background="#09dd00ff"></View>
+	<LinearLayout android:id="@+id/slide_image_lock_set_ll_2_cnf" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_frm_size" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center" >
+        
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_set_2_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+    	<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager  android:id="@+id/myviewpager_2_set_2_cnf"  android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"  />
+   		<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_3_set_2_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"  />
+  	</LinearLayout>
+  	<View android:layout_width="fill_parent" android:layout_height="5dp" android:background="#09dd00ff"></View>
+  	<LinearLayout android:id="@+id/slide_image_lock_set_ll_3_cnf" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_frm_size" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center"  >
+        
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_set_3_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" android:layout_gravity="center_vertical"/>
+        <View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager  android:id="@+id/myviewpager_2_set_3_cnf"  android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+   		<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_3_set_3_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"/>
+    	</LinearLayout>
+  	</LinearLayout>
+  	 <View  android:layout_width="fill_parent" android:layout_height="30dp" android:background="@android:color/transparent"></View>
+  	<LinearLayout android:id="@+id/swipe_image_lock_set_button_ll_cnf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal"  >
+        
+     <Button android:textSize="35.0sp" android:gravity="center_horizontal" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/swipe_image_lock_set_btncnl_cnf" android:background="@drawable/round_corner_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginBottom="54dp" android:text="Cancle" />
+     <View  android:layout_width="5dp" android:layout_height="10dp" android:background="@android:color/transparent"></View>
+     <Button android:textSize="35.0sp" android:gravity="center_horizontal" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/swipe_image_lock_set_btnok_cnf" android:background="@drawable/round_corner_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginBottom="54dp" android:text="Unlock" />
+     
+   
+    </LinearLayout>
+  </LinearLayout>
+  
+
+</LinearLayout>

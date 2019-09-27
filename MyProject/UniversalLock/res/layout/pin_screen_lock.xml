@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/pin_frm_scn"  android:layout_width="fill_parent" android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/pin_ll_scn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="center_vertical" android:layout_marginBottom="150dp">
+       
+       <include layout="@layout/status_bar" android:id="@+id/statusbar_pin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+       
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/scrl_lll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:layout_below="@id/status_ll" >
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/time_format" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+                <TextView android:textSize="80.0sp" android:id="@+id/time_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffffff"/>
+                <TextView android:textSize="30.0sp" android:id="@+id/time_AMPM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffffff" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:id="@+id/date_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffffff"/>
+            
+        </LinearLayout>     
+   			<include layout="@layout/pin_keypad" android:id="@+id/pin_lock_keypade"/>
+   			</LinearLayout>
+    	
+</FrameLayout>

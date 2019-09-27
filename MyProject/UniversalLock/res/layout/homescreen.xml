@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/shakeorswipe_frm" android:layout_width="fill_parent" android:layout_height="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top">
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+    <RelativeLayout android:id="@+id/rrl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="top" android:orientation="vertical">
+        <LinearLayout android:orientation="vertical" android:gravity="center_vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent" >
+        <LinearLayout android:orientation="vertical" android:id="@+id/status_ll" android:layout_width="fill_parent" android:layout_height="16.0dip" android:gravity="top">
+			<include layout="@layout/status_bar" android:id="@+id/status_bar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:gravity="top" android:orientation="vertical" android:id="@+id/scrl_lll" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <LinearLayout android:layout_gravity="center_vertical" android:gravity="center" android:orientation="vertical" android:id="@+id/scrl_lll2" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/time_format" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+                <TextView android:textSize="80.0sp" android:id="@+id/time_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="30.0sp" android:id="@+id/time_AMPM" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:id="@+id/date_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/swipe_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/swipe_text_top_margin">
+                <TextView android:textSize="20.0sp" android:id="@+id/swipe_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Swipe To Unlock" />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+        <ImageView android:id="@+id/camera_icon" android:layout_width="@dimen/camera_icon_size" android:layout_height="@dimen/camera_icon_size" android:src="@drawable/camera_icon" android:layout_gravity="bottom"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/swipe_pin_rl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+           <FrameLayout  android:gravity="center" android:orientation="vertical" android:id="@+id/pin_btn_frm_main" android:layout_width="fill_parent" android:layout_height="fill_parent"  >    
+		<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/pin_btn_ll" android:layout_width="fill_parent" android:layout_height="fill_parent"  >
+            <TextView android:textSize="32.0sp" android:textColor="#ff5500ff" android:layout_gravity="center_horizontal" android:id="@+id/pin_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter Pin Number" android:textIsSelectable="false" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/light_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginBottom="35.0dip">
+                <ImageView android:id="@+id/img_1" android:background="@drawable/pin_image_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:src="@drawable/pin_light" android:contentDescription="@null" />
+                <ImageView android:id="@+id/img_2" android:background="@drawable/pin_image_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:src="@drawable/pin_light" android:contentDescription="@null" />
+                <ImageView android:id="@+id/img_3" android:background="@drawable/pin_image_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:src="@drawable/pin_light" android:contentDescription="@null" />
+                <ImageView android:id="@+id/img_4" android:background="@drawable/pin_image_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.5dip" android:src="@drawable/pin_light" android:contentDescription="@null" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/pin_btn_ll2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/pin_btn_ll2_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn1" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:text="1" />
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn2" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="2" />
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn3" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="3" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/pin_btn_ll2_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn4" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:text="4" />
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn5" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="5" />
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn6" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="6" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/pin_btn_ll2_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn7" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:text="7" />
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn8" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="8" />
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn9" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="9" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/pin_btn_ll2_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                    <Button android:textSize="50.0sp" android:textColor="#ffffffff" android:id="@+id/btn0" android:background="@drawable/round_corner_white" android:layout_width="70dp" android:layout_height="wrap_content" android:text="0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/pin_btn_ll2_5" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+                    <Button android:textSize="35.0sp" android:textColor="#ffffffff" android:layout_gravity="left" android:id="@+id/btncancle_shw" android:background="@drawable/round_corner_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:text="Cancle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom"  android:layout_gravity="right"  android:orientation="horizontal" android:id="@+id/pin_btn_delete_ll2_5" android:layout_width="wrap_content" android:layout_height="wrap_content" > 
+                        <Button android:textSize="35.0sp" android:layout_gravity="center" android:gravity="center" android:textColor="#ffffffff"  android:id="@+id/btndelete_shw" android:background="@drawable/round_corner_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:text="Delete" />	    
+		</LinearLayout>
+            </LinearLayout>        	 
+		
+    </LinearLayout>
+    </FrameLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/swipe_image_rl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_gravity="center_vertical"
+     android:gravity="center">
+     
+     <LinearLayout android:id="@+id/slide_image_lock_set_sub_main_cnf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center" >
+     	 <View  android:layout_width="fill_parent" android:layout_height="100dp" android:background="@android:color/transparent"></View>
+     	<LinearLayout android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+     	        
+    <LinearLayout android:id="@+id/slide_image_lock_set_ll_1_cnf" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_frm_size" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center"  >
+    	    
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_set_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+    	<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager  android:id="@+id/myviewpager_2_set_cnf"  android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+   		<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_3_set_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"  />
+  	</LinearLayout>
+  	<View android:layout_width="fill_parent" android:layout_height="5dp" android:background="#09dd00ff"></View>
+	<LinearLayout android:id="@+id/slide_image_lock_set_ll_2_cnf" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_frm_size" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center" >
+        
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_set_2_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+    	<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager  android:id="@+id/myviewpager_2_set_2_cnf"  android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"  />
+   		<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_3_set_2_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"  />
+  	</LinearLayout>
+  	<View android:layout_width="fill_parent" android:layout_height="5dp" android:background="#09dd00ff"></View>
+  	<LinearLayout android:id="@+id/slide_image_lock_set_ll_3_cnf" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_frm_size" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center"  >
+        
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_set_3_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" android:layout_gravity="center_vertical"/>
+        <View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager  android:id="@+id/myviewpager_2_set_3_cnf"  android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size" />
+   		<View  android:layout_width="5dp" android:layout_height="@dimen/viewpager_size" android:background="#09dd00ff"></View>
+    	<android.support.v4.view.ViewPager android:id="@+id/myviewpager_3_set_3_cnf" android:layout_width="@dimen/viewpager_size" android:layout_height="@dimen/viewpager_size"/>
+    	</LinearLayout>
+  	</LinearLayout>
+  	 <View  android:layout_width="fill_parent" android:layout_height="30dp" android:background="@android:color/transparent"></View>
+  	<LinearLayout android:id="@+id/swipe_image_lock_set_button_ll_cnf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal"  >
+        
+     <Button android:textSize="35.0sp" android:gravity="center_horizontal" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/swipe_image_lock_set_btncnl_cnf" android:background="@drawable/round_corner_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginBottom="54dp" android:text="Cancle" />
+     <View  android:layout_width="5dp" android:layout_height="10dp" android:background="@android:color/transparent"></View>
+     <Button android:textSize="35.0sp" android:gravity="center_horizontal" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/swipe_image_lock_set_btnok_cnf" android:background="@drawable/round_corner_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginBottom="54dp" android:text="Unlock" />
+     
+   
+    </LinearLayout>
+  </LinearLayout>
+  
+
+</LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

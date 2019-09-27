@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_image_lock_screen_frm"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    tools:context="com.example.mylockapp.swipe_image_lock_set_confirm" >
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/swipe_image_rl">
+            <include layout="@layout/status_bar" android:id="@+id/galary_stusbar" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+       <LinearLayout android:orientation="vertical" android:id="@+id/pin_status_ll_vrf" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_gravity="top" >
+
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/scrl_lll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:layout_below="@id/status_ll">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/time_format" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="80.0sp" android:id="@+id/time_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffffff"/>
+                <TextView android:textSize="30.0sp" android:id="@+id/time_AMPM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffffff"/>
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:id="@+id/date_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffffff"/>
+            
+        </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include  layout="@layout/galary_view" android:id="@+id/galary_view" />
+    </LinearLayout>
+</FrameLayout>

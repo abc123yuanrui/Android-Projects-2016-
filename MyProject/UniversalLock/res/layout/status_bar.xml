@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+	<RelativeLayout android:id="@+id/battery_ll" android:layout_width="fill_parent" android:layout_height="16.0dip" android:textColor="#08ffffff">
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/operator_tv_vrf" android:layout_width="wrap_content" android:layout_height="16.0dip" android:text="Reliance" android:layout_alignParentLeft="true" android:textColor="#ffffffff" />
+                <ImageView android:layout_gravity="left" android:id="@+id/signal_img" android:layout_width="wrap_content" android:layout_height="16.0dip" android:src="@drawable/signal0" android:layout_toRightOf="@+id/operator_tv" android:contentDescription="@null" android:textColor="#ffffffff" />
+                <TextView android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/battery_tv" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginRight="60.0dip" android:layout_alignParentRight="true" android:textColor="#ffffffff" />
+                <ImageView android:id="@+id/battery_img" android:layout_width="40.0dip" android:layout_height="16.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/btrfull" android:layout_alignParentRight="true" android:contentDescription="@null" android:textColor="#ffffffff"/>
+            </RelativeLayout>
+</LinearLayout>

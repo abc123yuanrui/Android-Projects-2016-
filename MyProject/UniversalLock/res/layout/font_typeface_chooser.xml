@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1" >
+    <include layout="@layout/header" android:layout_width="fill_parent" android:layout_height="@dimen/header_size"/>
+<ListView android:id="@+id/font_typeface_chooser_list" android:layout_width="fill_parent" android:layout_height="fill_parent"></ListView>
+</LinearLayout>

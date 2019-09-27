@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/beijing" android:title="北京"></item>
+    <item android:id="@+id/harbin" android:title="哈尔滨"></item>
+    <item android:id="@+id/shanghai" android:title="上海"></item>
+    <item android:id="@+id/tianjin" android:title="天津"></item>
+    <item android:id="@+id/lanzhou" android:title="兰州"></item>
+    <item android:id="@+id/wuhan" android:title="武汉"></item>
+    <item android:id="@+id/qingdao" android:title="青岛"></item>
+    <item android:id="@+id/shijiazhuang" android:title="石家庄"></item>
+    <item android:id="@+id/shenzhen" android:title="深圳"></item>
+    <item android:id="@+id/guangzhou" android:title="广州"></item>
+    <item android:id="@+id/zhumadian" android:title="驻马店"></item>
+    <item android:id="@+id/ningbo" android:title="宁波"></item>
+
+
+</menu>

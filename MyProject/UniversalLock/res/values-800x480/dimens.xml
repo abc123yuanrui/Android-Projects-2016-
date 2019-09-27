@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	
+    	<dimen name="list_text_size">18.0dp</dimen>
+    	<dimen name="list_text_size_desc">15.0dp</dimen>
+    	<dimen name="header_text_size">21.0dp</dimen>
+    	<dimen name="header_size">78.0dp</dimen>
+    	<dimen name="header_image_size">60.0dp</dimen>
+    	<dimen name="pin_title_text_size">36.0dp</dimen>
+    	<dimen name="pin_degit_text_size">38.0dp</dimen>
+    	<dimen name="pin_button_text_size">33.0dp</dimen>
+    	<dimen name="pin_image_margin_bottom">10.0dip</dimen>
+    	<dimen name="pin_image_margin_top">10.0dip</dimen>
+    	<dimen name="pin_keypad_margin">20.0dip</dimen>
+    	<dimen name="password_main_btn_height">40.0dip</dimen>
+    	<dimen name="password_main_btn_width">140.0dip</dimen>
+    	<dimen name="pin_keypad_row_margin">7.0dip</dimen>
+    	<dimen name="pin_keypad_bottom_margin">12.0dip</dimen>
+    	<dimen name="sgalary_button_text_size">24.0dp</dimen>
+    	<dimen name="sg_popup_dialog_text_size">33.0dp</dimen>
+    	<dimen name="sg_popup_dialog_width">135.0dp</dimen>
+    	<dimen name="sg_popup_dialog_height">51.0dp</dimen>
+    	<dimen name="wallpaper_galary_height">135.0dp</dimen>
+    	<dimen name="slidelockadapter_rl_size">55.0dp</dimen>
+    	<dimen name="slidelockadapter_txt_margin">33.0dp</dimen>
+    	<dimen name="switch_size">40.0dip</dimen>    	
+    	<dimen name="viewpager_frm_size">130.0dip</dimen>
+		<dimen name="viewpager_size">130.0dip</dimen>
+		<dimen name="viewpager_img_size">130.0dp</dimen>
+    	<dimen name="camera_icon_size">75.0dip</dimen>
+    	<dimen name="time_text_size">88.0dip</dimen>
+    	<dimen name="date_text_size">21.0dip</dimen>
+    	<dimen name="swipe_text_size">18.0dip</dimen>
+    	<dimen name="swipe_text_top_margin">470dip</dimen>
+</resources>

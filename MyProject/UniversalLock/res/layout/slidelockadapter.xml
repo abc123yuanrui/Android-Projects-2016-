@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/sdl_ll"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/sdl_frm" 	android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/sdl_rl" 
+            android:layout_width="fill_parent" 
+            android:layout_height="@dimen/slidelockadapter_rl_size" 
+            android:layout_marginLeft="10.0dip"
+             android:layout_marginRight="10.0dip">
+             
+            <TextView android:gravity="center_vertical" 
+                android:id="@+id/sdl_tv" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"                 
+                android:text="list" 
+                android:layout_marginLeft="@dimen/slidelockadapter_txt_margin"
+                android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"
+				android:textSize="@dimen/list_text_size"
+				android:textColor="@android:color/white"/>
+            
+            <ImageView android:id="@+id/sdl_img"
+                 android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content" 
+                 android:src="@drawable/dir_arrow"                 
+                 android:layout_alignParentRight="true"
+                 android:layout_centerVertical="true"
+                 android:scaleType="fitXY"
+                 android:background="@null"/>
+            
+            <ImageView android:id="@+id/sdl_cb" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"               
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/lock_type_check"
+                android:scaleType="fitXY"               
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>
